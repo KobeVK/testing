@@ -1,0 +1,15 @@
+basic-tools:
+  version: 1.00
+  extensions: true
+  pullSecret: true
+  dockerOverrides:
+  - pathExpression: sidecarImageParts.registry
+  - pathExpression: initImageParts.registry
+  bas: true
+cds-tools:
+  version: 1.00
+  extensions: true
+  pullSecret: true
+  dockerOverrides:
+  - pathExpression: imageParts.registry
+  bas: true
